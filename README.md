@@ -47,7 +47,7 @@ Clean code & API docs
 
 ⚙️ Installation
 1️⃣ Clone the repo
-git clone https://github.com/your-username/scalable-web-app.git
+git clone [https://github.com/your-username/scalable-web-app.git](https://github.com/Aashish595/Task-Manager-Dashboard)
 cd scalable-web-app
 
 2️⃣ Setup Backend
