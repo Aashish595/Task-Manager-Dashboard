@@ -1,9 +1,13 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL =  'https://task-manager-dashboard-eh8t.onrender.com/api' || 'http://localhost:5000/api'
 
+console.log("API URL:", API_URL);
+if (!API_URL) {
+  throw new Error('VITE_API_URL is not defined in environment variables');
+}
 const api = axios.create({
-  baseURL: `${API_URL}/api`,
+  baseURL: API_URL,
   headers: {
     'Content-Type': 'application/json'
   }
