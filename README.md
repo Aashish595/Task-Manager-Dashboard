@@ -56,10 +56,9 @@ JWT_EXPIRE=7d
 MONGO_URI=mongodb+srv://aashishmaurya959_db_user:pnW8q1qOku5fWKvN@cluster0.kkv9aop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 ##Deployment Links
+- **Frontend Live:** [https://task-manager-dashboard-sigma.vercel.app/](https://task-manager-dashboard-sigma.vercel.app/) 
+- **Backend API Live:** [https://task-manager-dashboard-eh8t.onrender.com/](https://task-manager-dashboard-eh8t.onrender.com/) 
 
-Frontend Live: https://task-manager-dashboard-sigma.vercel.app/
-
-Backend API Live: https://task-manager-dashboard-eh8t.onrender.com/
 
 ## Approach
 
