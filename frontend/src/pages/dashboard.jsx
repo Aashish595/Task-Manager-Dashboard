@@ -44,7 +44,7 @@ export default function Dashboard() {
 
     try {
       if (editingTask) {
-        await taskAPI.updateTask(editingTask.id, formData);
+        await taskAPI.updateTask(editingTask._id, formData);
       } else {
         await taskAPI.createTask(formData);
       }
